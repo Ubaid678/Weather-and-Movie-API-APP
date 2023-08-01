@@ -1,0 +1,189 @@
+/* .App {
+  text-align: center;
+  
+}
+
+body{
+  background: #9b59b6;
+}
+
+label{
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgb(255, 255, 255);
+
+}
+input
+{
+  border: 2px solid #ffffff;
+  background: transparent;
+  height: 30px;
+  border-radius: 25px;
+  margin-left: 5px;
+
+}
+h3
+{
+  color: white;
+}
+{}
+
+input::placeholder
+{
+  color: white;
+}
+button{
+  background: none;
+  border-radius: 5px;
+  border: 2px solid #ffffff ;
+  margin-left: 5px;
+  color: white;
+}
+
+.box
+{
+  left: 0;
+  margin-left: 15px;
+  margin-top: 15px;
+  position: relative;
+  width: 28%;
+  box-shadow: 2px 2px 4px #a922e8;
+  padding: 5px 9px;
+  display: inline-block;
+  background-color: #95a5a6;
+  border-radius: 5px;
+ 
+} */
+body
+{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+}
+
+.container
+{
+  width: 100%;
+  height:  100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url(https://www.maketecheasier.com/assets/uploads/2021/11/Featured-Image-Live-Weather-Wallpapers-Android.jpg);
+}
+
+.weather 
+{
+  width: 380px;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius: 10px;
+  background: transparent;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.2);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);  padding: 30px;
+  position: relative;
+  color: white;
+  text-align: center;
+
+}
+.search
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.search input 
+{
+  border-radius:30px;
+  background: #ffffff;
+  border: none;
+  padding: 12px 25px;
+  outline: 0;
+  font-size: 25px;
+  flex: 1;
+  margin-right: 12px;
+  color: black;
+}
+.search button
+{
+  border: none;
+  border-radius: 5px;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  background: transparent;
+}
+
+.icon
+{
+  height: 20px;
+  margin-left: -5px;
+  filter: invert(1);
+}
+
+.w-info .weather-icon
+{
+  margin-top: 20px;
+  height: 40px;
+  background: transparent;
+  
+}
+
+.w-info h1
+{
+  font-size: 3em;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  
+}
+
+.w-info h2
+{
+  font-size: 2em;
+  font-weight: 400;
+  margin-top: -20px;
+}
+
+.details
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  margin-top: 50px;
+}
+
+.details .col
+{
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+
+.details .col img
+{
+  width: 45px;
+  margin-right: 10px;
+}
+.humidity , .wind
+{
+  font-size: 27px;
+}
+
+.humidity p, .wind p
+{
+  margin: 0px;
+  margin-left: 3px;
+}
+
+.active
+{
+  color: blue;
+}
